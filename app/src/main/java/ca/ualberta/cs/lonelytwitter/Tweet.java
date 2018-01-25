@@ -51,4 +51,9 @@ public abstract class Tweet implements Tweetable {
         return allmoods;
     }
 
+    @Override
+    public String toString() {
+       return message;
+    }
+
 }
